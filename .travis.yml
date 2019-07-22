@@ -1,0 +1,5 @@
+notifications:
+  email:
+    recipients:
+      - j4qfrost@gmail.com
+    on_success: always # default: change

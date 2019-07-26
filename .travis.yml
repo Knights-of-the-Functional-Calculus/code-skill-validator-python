@@ -4,7 +4,7 @@ python:
 install:
   - pip install git+$REPO
 script:
-  - unittest
+  - python -m unittest
 notifications:
   email:
     recipients:

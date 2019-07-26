@@ -1,2 +1,1 @@
-ls
-python -m unittest
+python -m unittest discover -s .

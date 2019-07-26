@@ -4,7 +4,7 @@ python:
 install:
   - pip install git+$REPO
 script:
-  - python -m unittest
+  - sh entrypoint.sh
 notifications:
   email:
     recipients:

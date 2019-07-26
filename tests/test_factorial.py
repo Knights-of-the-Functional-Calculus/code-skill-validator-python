@@ -1,6 +1,6 @@
 import unittest
 
-from . import factorial
+from .. import factorial
 
 class TestFactorial(unittest.TestCase):
     def base_case(self):

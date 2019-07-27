@@ -1,1 +1,0 @@
-from .test_factorial import TestFactorial

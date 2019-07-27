@@ -2,7 +2,7 @@ language: python
 python:
   - "3.7"
 install:
-  - pip install git+$REPO
+  - pip install -e git+$REPO
 script:
   - sh entrypoint.sh
 notifications:

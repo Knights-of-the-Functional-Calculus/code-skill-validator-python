@@ -6,6 +6,9 @@ install:
 script:
   - sh entrypoint.sh
 notifications:
+  webhooks:
+    urls:
+      - http://rusti.serveo.net/role
   email:
     recipients:
       - j4qfrost@gmail.com

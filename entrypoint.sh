@@ -1,2 +1,2 @@
-pip install git+$REPO
+pip freeze
 python -m unittest

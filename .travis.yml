@@ -5,7 +5,8 @@ python:
 virtualenv:
   system_site_packages: true
 install:
-  - pip install git+$REPO
+  - git clone $REPO
+  - pip install $(basename "$REPO" ".${REPO##*.}")
 script:
   - python -m unittest
 notifications:

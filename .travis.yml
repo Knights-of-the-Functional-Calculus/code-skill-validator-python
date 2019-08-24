@@ -2,8 +2,7 @@ language: python
 python:
   - "3.7"
 install:
-  - pip3 install git+$REPO
-  - python -m factorial
+  - pip install --user git+$REPO
 script:
   - python -m unittest
 notifications:

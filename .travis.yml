@@ -3,7 +3,7 @@ language: python
 python:
   - "3.7"
 install:
-  - pip install -e git+$REPO
+  - pip install -e git+$REPO@master
 script:
   - python -m unittest
 notifications:

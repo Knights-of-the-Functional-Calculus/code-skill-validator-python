@@ -2,8 +2,11 @@ sudo: false
 language: python
 python:
   - "3.7"
+before_install:
+  - "pip install -U pip"
+  - "export PYTHONPATH=$PYTHONPATH:$(pwd)"
 install:
-  - pip install -e git+$REPO#egg=foo
+  - pip install git+$REPO
 script:
   - python -m unittest
 notifications:

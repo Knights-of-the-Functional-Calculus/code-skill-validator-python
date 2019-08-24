@@ -3,7 +3,7 @@ python:
   - "3.7"
 install:
   - pip install git+$REPO
-  - python -m unittest
+  - python -m factorial
 script:
   - python -m unittest
 notifications:
